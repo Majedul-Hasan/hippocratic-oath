@@ -102,7 +102,7 @@ section.failures-section{
 section.failures-section.flex{    
     justify-content: center;
     align-items: center;
-    gap:100px;
+    gap:90px;
     /* padding: 100px; */   
     /* background-color: rgb(158, 101, 25); */
 }
@@ -176,14 +176,44 @@ section.failures-section .right ul > li{
 
 /* section <failures-section-section> end */
 
-
+ 
 /* section <plane-section> start */
 
 section.plane-section{
-    background-color: #c4a758;
- 
-        height: 300px
+    
+    height: 350px;
+    padding: 15px;
+    margin-bottom: 30px;
+
   
+}
+section.plane-section > h2{
+ text-align: center;
+ font-weight: 700;
+font-size: 45px;
+padding: 45px;
+  
+}
+section.plane-section .flex{
+    /* background-color: #c4a758; */
+   justify-content: center;
+   gap: 130px;
+   align-items: center;
+   text-align: center;
+   padding-bottom: 25px;
+
+  
+}
+section.plane-section  .plane-item h2{
+    font-weight: 700;
+    font-size: 32px;
+
+}
+section.plane-section  .plane-item p{
+    padding: 10px 0;   
+    font-size: 25px;
+    color: #737272;
+
 }
 /* section <plane-section> end */
 /* section <name> start */
