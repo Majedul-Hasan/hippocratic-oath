@@ -250,8 +250,9 @@ section.plane-section  .plane-item p{
     line-height: 55px;
 
 }
-.img-overlay .text.container button{
+.img-overlay .text.container a.btn{
     margin-top: 30px;
+    background-color: #fff;
     color: #F15B22;
     font-size: 29px;
     line-height: 22px;
@@ -259,7 +260,15 @@ section.plane-section  .plane-item p{
     padding: 22px 36px;
     font-weight: 700;
     border-radius: 8px;
+    text-decoration: none;
+   
+    border:1px solid #fff;
 
+}
+.img-overlay .text.container a.btn:hover{
+    background-color:#F15B22;
+    color: #fff;
+ 
 }
 
 /* section <img-overlay> end */
@@ -303,15 +312,12 @@ footer .contact-info p a{
 }
 
 footer .right h3{
-   font-size: 28px;
-   padding:  16px 0;
-   margin-top: -120px;
+   font-size: 28px;   
+   margin-top: 0px;
 }
 footer form{
     display: flex;
-    flex-direction: column;
-
-    
+    flex-direction: column;    
     align-items: flex-start;
 }
 footer form > .input{
@@ -321,10 +327,10 @@ footer form > .input{
     padding: 10px 20px;
     width: 75%;
     margin: 30px 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #fff;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 20px;
 
 }
 footer form > .btn{
@@ -334,10 +340,14 @@ footer form > .btn{
     padding: 10px 20px;
    
     margin-top: 20px;
-    color:  #ec7343;;
+    color:  #ec7343;
     font-size: 22px;
     font-weight: 600;
     line-height: 26px;
 
+}
+footer form > .btn:hover{
+    background-color: #ec7343;;
+    color: #fff;
 }
 /* all section styles end*/
