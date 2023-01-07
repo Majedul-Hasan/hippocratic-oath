@@ -14,13 +14,21 @@
     display: flex;
     
 }
-/* .right{
-    position: absolute;
-    right: 0px;
-    width: 300px;
-    border: 3px solid #73AD21;
-    padding: 10px;
-} */
+.all-center{    
+    justify-content: center;
+    align-items: center;
+
+}
+button, .btn{
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color: #ec7343;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 /* class style end*/
 
@@ -85,7 +93,7 @@ header p{
     border: none;
     color: #fff;
     padding: 20px 25px;
-    cursor: pointer;
+   
 }
 .orange-btn:hover{
     background-color: #ec7343;
@@ -102,7 +110,7 @@ section.failures-section{
 section.failures-section.flex{    
     justify-content: center;
     align-items: center;
-    gap:100px;
+    gap:90px;
     /* padding: 100px; */   
     /* background-color: rgb(158, 101, 25); */
 }
@@ -155,11 +163,11 @@ section.failures-section .right ul{
     padding-left: 15px ;
     list-style-position: outside;
     line-height: 2rem;
-    margin-top: 30px;
+    margin-top: 55px;
 
     
 }
-ul li::before {
+section.failures-section ul li::before {
     content: "✓"; 
     color:#16D887; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
@@ -176,17 +184,275 @@ section.failures-section .right ul > li{
 
 /* section <failures-section-section> end */
 
-
+ 
 /* section <plane-section> start */
 
 section.plane-section{
-    background-color: #c4a758;
- 
-        height: 300px
+    
+    height: 350px;
+    padding: 15px;
+    margin-bottom: 30px;
+
   
 }
-/* section <plane-section> end */
-/* section <name> start */
-/* section <name> end */
+section.plane-section > h2{
+ text-align: center;
+ font-weight: 700;
+font-size: 45px;
+padding: 45px;
+  
+}
+section.plane-section .flex{
+   justify-content: center;
+   gap: 130px;
+   align-items: center;
+   text-align: center;
+   padding-bottom: 25px;
 
+  
+}
+section.plane-section  .plane-item h2{
+    font-weight: 700;
+    font-size: 32px;
+
+}
+section.plane-section  .plane-item p{
+    padding: 10px 0;   
+    font-size: 25px;
+    color: #737272;
+
+}
+/* section <plane-section> end */
+/* section <img-overlay> start */
+.img-overlay{
+    height: 370px;
+    /* background-color: #c4a758; */
+    display: flex;
+    /* padding-top: 55px; */
+    margin: 70px 0 100px 0;
+   
+}
+.img-overlay .background{
+    height: 95%;
+    width: 70%;
+    background: url('../images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%) ;
+    border-radius: 8px;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.img-overlay .text.container{
+    display: flex; 
+    height: 100%;  
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    flex-direction: column;
+}
+.img-overlay .text.container h2{
+    color: #fff;
+    font-size: 48px;
+    line-height: 55px;
+
+}
+.img-overlay .text.container a.btn{
+    margin-top: 30px;
+    background-color: #fff;
+    color: #F15B22;
+    font-size: 29px;
+    line-height: 22px;
+    border: none;
+    padding: 22px 36px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+   
+    border:1px solid #fff;
+
+}
+.img-overlay .text.container a.btn:hover{
+    background-color:#F15B22;
+    color: #fff;
+ 
+}
+
+/* section <img-overlay> end */
+
+/* footer */
+footer{   
+    background-color: #000;
+    justify-content: space-between;
+    color: #fff;
+   
+    height: 65vh;
+    align-items: center;
+    padding:0 15%;
+
+}
+footer .left, footer .right{
+    width: 35%;
+
+}
+footer .left h2{
+    font-size: 46px;
+    padding:  16px 0;
+
+}
+footer .left p{
+    font-size: 16px;
+    line-height: 26px;
+    
+
+}
+
+footer .contact-info p{
+    margin-top: 15px;
+
+}
+footer .contact-info p a{
+   color: #fff;
+   text-decoration: none;
+
+
+}
+
+footer .right h3{
+   font-size: 28px;   
+   margin-top: 0px;
+}
+footer form{
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-start;
+}
+footer form > .input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 75%;
+    margin: 30px 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 20px;
+
+}
+footer form > .btn{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+   
+    margin-top: 20px;
+    color:  #ec7343;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+
+}
+footer form > .btn:hover{
+    background-color: #ec7343;;
+    color: #fff;
+}
 /* all section styles end*/
+
+/* section class="optional-section" */
+section.optional-section{
+    height: 200px;
+    background-color: #F15B22;
+    gap: 15%;
+    color: #fff;
+}
+section.optional-section h2{
+    font-size: 40px;
+}
+
+section.optional-section button{
+    text-transform: uppercase;
+   
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: #ec7343;
+    font-size: 25px;
+}
+section.optional-section button:hover{
+    background-color: #ec7343;
+    color: #fff;
+}
+
+.social-info {
+
+    padding-top: 10px;
+    
+}
+.social-info a{
+   
+    padding-right: 10px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: #cecdcd;
+    border-bottom: #F15B22 solid 2px;
+}
+
+nav h2.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    text-transform: capitalize;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border-bottom: transparent 2px solid;
+
+}
+nav li:hover{
+background-color: #FD6E0A ;
+border-bottom: #FD6E0A 2px solid;
+
+}
+nav li:hover a{
+    color: #fff;
+
+}
+nav li:hover button{
+
+background-color: #FD6E0A ;
+
+}
+
+
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+   
+}
