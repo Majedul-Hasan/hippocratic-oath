@@ -14,13 +14,15 @@
     display: flex;
     
 }
-/* .right{
-    position: absolute;
-    right: 0px;
-    width: 300px;
-    border: 3px solid #73AD21;
-    padding: 10px;
-} */
+.all-center{    
+    justify-content: center;
+    align-items: center;
+
+}
+button, .btn{
+    cursor: pointer;
+}
+
 
 /* class style end*/
 
@@ -85,7 +87,7 @@ header p{
     border: none;
     color: #fff;
     padding: 20px 25px;
-    cursor: pointer;
+   
 }
 .orange-btn:hover{
     background-color: #ec7343;
@@ -195,7 +197,6 @@ padding: 45px;
   
 }
 section.plane-section .flex{
-    /* background-color: #c4a758; */
    justify-content: center;
    gap: 130px;
    align-items: center;
@@ -216,7 +217,127 @@ section.plane-section  .plane-item p{
 
 }
 /* section <plane-section> end */
-/* section <name> start */
-/* section <name> end */
+/* section <img-overlay> start */
+.img-overlay{
+    height: 370px;
+    /* background-color: #c4a758; */
+    display: flex;
+    /* padding-top: 55px; */
+    margin: 70px 0 100px 0;
+   
+}
+.img-overlay .background{
+    height: 95%;
+    width: 70%;
+    background: url('../images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%) ;
+    border-radius: 8px;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.img-overlay .text.container{
+    display: flex; 
+    height: 100%;  
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    flex-direction: column;
+}
+.img-overlay .text.container h2{
+    color: #fff;
+    font-size: 48px;
+    line-height: 55px;
 
+}
+.img-overlay .text.container button{
+    margin-top: 30px;
+    color: #F15B22;
+    font-size: 29px;
+    line-height: 22px;
+    border: none;
+    padding: 22px 36px;
+    font-weight: 700;
+    border-radius: 8px;
+
+}
+
+/* section <img-overlay> end */
+
+/* footer */
+footer{   
+    background-color: #000;
+    justify-content: space-between;
+    color: #fff;
+    padding: ;
+    height: 65vh;
+    align-items: center;
+    padding:0 15%;
+
+}
+footer .left, footer .right{
+    width: 35%;
+
+}
+footer .left h2{
+    font-size: 46px;
+    padding:  16px 0;
+
+}
+footer .left p{
+    font-size: 16px;
+    line-height: 26px;
+    
+
+}
+
+footer .contact-info p{
+    margin-top: 15px;
+
+}
+footer .contact-info p a{
+   color: #fff;
+   text-decoration: none;
+
+
+}
+
+footer .right h3{
+   font-size: 28px;
+   padding:  16px 0;
+   margin-top: -120px;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+
+    
+    align-items: flex-start;
+}
+footer form > .input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 75%;
+    margin: 30px 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+footer form > .btn{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+   
+    margin-top: 20px;
+    color:  #ec7343;;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+
+}
 /* all section styles end*/
