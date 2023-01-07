@@ -22,6 +22,12 @@
 button, .btn{
     cursor: pointer;
 }
+nav a{
+    text-decoration: none;
+    color: #ec7343;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
 /* class style end*/
@@ -398,11 +404,11 @@ nav {
     border-bottom: #F15B22 solid 2px;
 }
 
-.nav-title {
+nav h2.nav-title {
     font-weight: 800;
     font-size: 45px;
     text-transform: capitalize;
-    
+
 }
 
 nav ul {
@@ -413,7 +419,27 @@ nav ul {
 nav li {
     list-style: none;
     margin-left: 50px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border-bottom: transparent 2px solid;
+
 }
+nav li:hover{
+background-color: #FD6E0A ;
+border-bottom: #FD6E0A 2px solid;
+
+}
+nav li:hover a{
+    color: #fff;
+
+}
+nav li:hover button{
+
+background-color: #FD6E0A ;
+
+}
+
+
 
 .text-primary {
     color: #FD6E0A;
@@ -428,4 +454,5 @@ nav li {
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
+   
 }
