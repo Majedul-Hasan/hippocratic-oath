@@ -157,11 +157,11 @@ section.failures-section .right ul{
     padding-left: 15px ;
     list-style-position: outside;
     line-height: 2rem;
-    margin-top: 30px;
+    margin-top: 55px;
 
     
 }
-ul li::before {
+section.failures-section ul li::before {
     content: "✓"; 
     color:#16D887; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
@@ -278,7 +278,7 @@ footer{
     background-color: #000;
     justify-content: space-between;
     color: #fff;
-    padding: ;
+   
     height: 65vh;
     align-items: center;
     padding:0 15%;
@@ -351,3 +351,81 @@ footer form > .btn:hover{
     color: #fff;
 }
 /* all section styles end*/
+
+/* section class="optional-section" */
+section.optional-section{
+    height: 200px;
+    background-color: #F15B22;
+    gap: 15%;
+    color: #fff;
+}
+section.optional-section h2{
+    font-size: 40px;
+}
+
+section.optional-section button{
+    text-transform: uppercase;
+   
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: #ec7343;
+    font-size: 25px;
+}
+section.optional-section button:hover{
+    background-color: #ec7343;
+    color: #fff;
+}
+
+.social-info {
+
+    padding-top: 10px;
+    
+}
+.social-info a{
+   
+    padding-right: 10px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: #cecdcd;
+    border-bottom: #F15B22 solid 2px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    text-transform: capitalize;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
