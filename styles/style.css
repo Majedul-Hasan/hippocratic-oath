@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* all common style start */
+/* tag style start*/
+/* tag style end*/
+/* class style start*/
+.flex{
+    display: flex;
+    
+}
+/* .right{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+} */
+
+/* class style end*/
+
+/* all common style end */
+
+/* all section styles start */
+/* section <heder-section> start */
+.heder-section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+    
+}
+.heder-section.flex{
+    align-items: center;
+}
+.heder-section div{
+    text-align: right;
+    width: 42%;   
+    /* background-color: blue; */
+   
+}
+header h1{
+width:63%;
+font-family: 'Work Sans';
+margin-right: 0;
+margin-left: auto;
+
+font-weight: 700;
+font-size: 68px;
+line-height: 78px;
+text-align: right;
+
+/* Dark 01 */
+
+color: #151414;
+}
+header p{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    width:63%;
+    font-family: 'Work Sans';
+    margin-right: 0;
+    margin-left: auto;
+    line-height: 26px;
+    text-align: right;
+    /* Dark 02 */
+    color: #444343;
+}
+.orange-btn{
+    background-color: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    color: #fff;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.orange-btn:hover{
+    background-color: #ec7343;
+   outline: #fff solid 1px;
+}
+
+/* section <heder-section> end */
+
+
+
+/* section <name> start */
+/* section <name> end */
+/* section <name> start */
+/* section <name> end */
+/* section <name> start */
+/* section <name> end */
+
+/* all section styles end*/
