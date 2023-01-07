@@ -94,12 +94,98 @@ header p{
 
 /* section <heder-section> end */
 
+/* section <failures-section-section> start */
+section.failures-section{
+    height: 100vh;
+
+}
+section.failures-section.flex{    
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    /* padding: 100px; */   
+    /* background-color: rgb(158, 101, 25); */
+}
+section.failures-section .img-container{
+    position: relative;
+}
+section.failures-section  .img-bg{
+    background-color: rgba(241, 91, 34, 0.2);
+    height: 527px;
+    width: 527px;
+    position: absolute;
+    bottom: 5px;
+    left: 22px;
+    border-radius: 50%;
+    z-index: -1;
+}
+section.failures-section .right{
+   width: 35%;
+   /* background-color: rgb(155, 139, 118); */
+
+}
+section.failures-section .text.text{
+   margin-top: 150px;
+
+}
+section.failures-section .right h2{
+    width: 300px;
+    height: 94px;
+    padding-bottom: 30px  ;    
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 47px;
+    /* Dark 01 */
+    color: #151414;
+}
+section.failures-section .right p{
+    /* width: 300px; */
+    height: 16px;
+    padding-bottom: 30px  ;  
+    line-height: 1.8rem;  
+   
+    font-size: 16px;   
+    /* Dark 01 */
+    color: #151414;
+    /* margin-bottom: 30px; */
+}
+
+section.failures-section .right ul{
+    list-style-type: none;
+    padding-left: 15px ;
+    list-style-position: outside;
+    line-height: 2rem;
+    margin-top: 30px;
+
+    
+}
+ul li::before {
+    content: "✓"; 
+    color:#16D887; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 2em; /* Also needed for space (tweak if needed) */
+    margin-left: -1.5em; /* Also needed for space (tweak if needed) */
+  }
+section.failures-section .right ul > li{
+    margin-left: 10px;
+    /* line-height: 2rem; */
+    padding: 7px 0 ;
+
+}
+
+/* section <failures-section-section> end */
 
 
-/* section <name> start */
-/* section <name> end */
-/* section <name> start */
-/* section <name> end */
+/* section <plane-section> start */
+
+section.plane-section{
+    background-color: #c4a758;
+ 
+        height: 300px
+  
+}
+/* section <plane-section> end */
 /* section <name> start */
 /* section <name> end */
 
